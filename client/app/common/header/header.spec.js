@@ -1,4 +1,4 @@
-import NavbarModule from './navbar'
+import NavbarModule from './header'
 
 describe('Navbar', () => {
   let $rootScope, $state, $location, $componentController, $compile;
@@ -37,7 +37,7 @@ describe('Navbar', () => {
 
     beforeEach(() => {
       scope = $rootScope.$new();
-      template = $compile('<navbar></navbar>')(scope);
+      template = $compile('<header></header>')(scope);
       scope.$apply();
     });
 
