@@ -29,13 +29,27 @@
         right: 332px;
       }
       .smed {
+        margin: 90px 0 0 1122px;
         background: white;
         li {
           list-style: none;
           display: inline;
           i {
-            color: red;
-            font-size: 15px;
+            color: #000;
+            font-size: 25px;
+            margin-right: 15px;
+            &.fa-facebook:hover {
+              color: #3b5998;
+            }
+            &.fa-twitter {
+              color: #ff69b4;
+            }
+            &.fa-instagram {
+              color: #1de9b6;
+            }
+            &.fa-youtube {
+              color:red;
+            }
           }
         }
       }
