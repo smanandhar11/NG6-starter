@@ -1,12 +1,12 @@
-#sujan .wrapper {
+.rapper {
   margin: auto;
-  .lg {
+  &.lg {
     max-width: 992px;
   }
-  .md {
+  &.md {
     max-width: 650px;
   }
-  .xs {
+  & .xs {
     max-width: 475px;
   }
   @media (max-width: 992px) {
