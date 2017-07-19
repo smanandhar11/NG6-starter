@@ -1,0 +1,45 @@
+#aimme .wrapper {
+  margin: auto
+}
+
+#aimme .wrapper.lg {
+  max-width: 992px
+}
+
+#aimme .wrapper.md {
+  max-width: 768px
+}
+
+#aimme .wrapper.sm {
+  max-width: 650px
+}
+
+#aimme .wrapper.xs {
+  max-width: 475px
+}
+
+@media (max-width: 992px) {
+  #aimme .wrapper {
+    width: 768px
+  }
+}
+
+@media (max-width: 768px) {
+  #aimme .wrapper {
+    width: 650px
+  }
+}
+
+@media (max-width: 650px) {
+  #aimme .wrapper {
+    padding: 0 15px;
+    width: 100%
+  }
+}
+
+@media (max-width: 475px) {
+  #aimme .wrapper {
+    width: 100%
+
+  }
+}
