@@ -1,8 +1,8 @@
 .DS_Store
+.idea/workspace.xml
 .tmp
 .git
 node_modules
 .settings
 *.log
 dist/
-.idea/workspace.xml
