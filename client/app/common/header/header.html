@@ -1,18 +1,5 @@
-<!--<md-content>-->
-<!--<md-nav-bar-->
-<!--md-selected-nav-item="currentNavItem"-->
-<!--nav-bar-aria-label="navigation links">-->
-<!--<md-nav-item ui-sref="home" md-nav-click="goto('page1')" name="page1">-->
-<!--Home-->
-<!--</md-nav-item>-->
-<!--<md-nav-item ui-sref="gallery" md-nav-click="goto('page2')" name="page2">-->
-<!--Gallery-->
-<!--</md-nav-item>-->
-<!--<md-nav-item ui-sref="about" md-nav-click="goto('page3')" name="page3">-->
-<!--About-->
-<!--</md-nav-item>-->
-<!--</md-nav-bar>-->
-<!--</md-content>-->
+
+<!--header-->
 <header>
   <md-toolbar>
     <div class="md-toolbar-tools">
@@ -27,13 +14,36 @@
       </div>
       <!--social media -->
       <div class="header-right">
-        <a target="_blank" href="https://www.facebook.com/jewelsofnepal/"><li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
-        <a href="#"><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
-        <a href="#"><li><i class="fa fa-youtube" aria-hidden="true"></i></li></a>
-        <a href="#"><li><i class="fa fa-instagram" aria-hidden="true"></i></li></a>
+        <a target="_blank" href="https://www.facebook.com/jewelsofnepal/">
+          <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+        </a>
+        <a href="#">
+          <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+        </a>
+        <a href="#">
+          <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
+        </a>
+        <a href="#">
+          <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+        </a>
       </div>
     </div>
   </md-toolbar>
 </header>
+
+<!--navigation-->
+<md-toolbar>
+  <md-tabs class="btn-primary" md-stretch-tabs="always">
+    <md-tab ui-sref="home">
+      Home
+    </md-tab>
+    <md-tab ui-sref="gallery">
+      Gallery
+    </md-tab>
+    <md-tab ui-sref="about">
+      About
+    </md-tab>
+  </md-tabs>
+</md-toolbar>
 
 
